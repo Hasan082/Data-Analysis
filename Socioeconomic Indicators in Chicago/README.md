@@ -1,7 +1,7 @@
 # Analyzing a Real-World Dataset with SQL and Python
 
 ### Objectives
-After completing this analysis, you will be able to:
+Analysis:
 - Understand a dataset of selected socioeconomic indicators in Chicago.
 - Store data in an SQLite database.
 - Solve example problems to practice your SQL skills.
@@ -25,9 +25,9 @@ The dataset, "Selected Socioeconomic Indicators in Chicago," includes socioecono
 #### 1. Loading SQL Magic and Connecting to Database
 We started by loading the SQL magic extension and connecting to an SQLite database using the following command:
 ```python
-%sql sqlite:///DatabaseName.db
+%sql sqlite:///socioEconomicData.db
 ```
-Where `DatabaseName.db` is the SQLite database file.
+Where `socioEconomicData.db` is the SQLite database file.
 
 #### 2. Storing Data in SQLite Database
 - We loaded the dataset into a Pandas DataFrame.
@@ -43,18 +43,18 @@ We performed several SQL queries to analyze the dataset, including:
 
 #### Query 1: Retrieving Community Area Names
 ```sql
-SELECT community_area_name FROM socioeconomics;
+SELECT community_area_name FROM socioEconomicData;
 ```
 
 #### Query 2: Calculating Average Per Capita Income
 ```sql
-SELECT AVG(per_capita_income_) FROM socioeconomics;
+SELECT AVG(per_capita_income_) FROM socioEconomicData;
 ```
 
 #### Query 3: Finding Community Area with Highest Hardship Index
 ```sql
-SELECT community_area_name FROM socioeconomics
-WHERE hardship_index = (SELECT MAX(hardship_index) FROM socioeconomics);
+SELECT community_area_name FROM socioEconomicData
+WHERE hardship_index = (SELECT MAX(hardship_index) FROM socioEconomicData);
 ```
 
 ### Analysis and Insights
@@ -69,8 +69,8 @@ This lab provided hands-on experience in analyzing a real-world dataset using SQ
 - Python 3
 - Jupyter Notebook
 - Pandas
+- Seaborn
 - SQLite
-- SQLAlchemy
 - ipython-sql
 
 ### How to Run
