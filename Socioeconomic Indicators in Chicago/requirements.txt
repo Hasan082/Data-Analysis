@@ -1,2 +1,3 @@
-seaborn
-Seaborn
+seaborn~=0.13.2
+pandas~=2.2.3
+prettytable~=3.12.0
