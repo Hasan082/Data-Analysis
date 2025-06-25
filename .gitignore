@@ -1,2 +1,7 @@
 .idea
 .idea/
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite3
