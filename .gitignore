@@ -5,3 +5,4 @@
 *.xls
 *.sqlite
 *.sqlite3
+*.db
