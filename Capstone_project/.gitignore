@@ -2,3 +2,11 @@ survey_data.csv
 survey_data.sqlite
 survey-results-public.sqlite
 survey-data.csv
+.idea
+.idea/
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite3
+*.db
