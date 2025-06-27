@@ -10,3 +10,6 @@ survey-data.csv
 *.sqlite
 *.sqlite3
 *.db
+*.png
+*.jpeg
+*.jpg
