@@ -55,4 +55,15 @@
 
 
 
+##  Sales Analysis: sales_data.xlsx
+* Purpose: The sales_data.xlsx file contains sales data that can be used for analyzing sales performance, identifying trends, and calculating key metrics such as total sales, average sales, and sales growth.
 
+### Use:
+
+* Analyze sales trends over time.
+
+* Identify the best-performing products, regions, or sales teams.
+
+* Calculate sales growth, profitability, and other relevant KPIs (Key Performance Indicators).
+
+* Visualize sales data through charts (e.g., bar charts, line graphs) for better insights.
