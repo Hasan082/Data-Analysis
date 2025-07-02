@@ -67,3 +67,69 @@
 * Calculate sales growth, profitability, and other relevant KPIs (Key Performance Indicators).
 
 * Visualize sales data through charts (e.g., bar charts, line graphs) for better insights.
+
+
+## Visualization Folder
+
+This folder contains various notebooks and Python files used for data visualization, creating interactive dashboards, and mapping geospatial data. The following files are included in the **Visualization** folder:
+
+### 1. **Area Plots, Histograms, and Bar Charts (`Area Plots_Histograms_and_Bar_Charts.ipynb`)**
+   - **Purpose**: This notebook contains examples of creating area plots, histograms, and bar charts using different datasets.
+   - **Use**: It demonstrates how to visualize distributions of data and how to compare different categories using area, histogram, and bar charts.
+   
+### 2. **Basic Plotly Charts (`Basic Plotly Charts.ipynb`)**
+   - **Purpose**: Contains examples of basic charts created using Plotly.
+   - **Use**: Introduces interactive visualizations such as line charts, bar charts, and scatter plots using Plotly for better data exploration.
+
+### 3. **Flight Delay Time Statistics Dashboard (`Flight_Delay_Time_Statistics_Dashboard.py`)**
+   - **Purpose**: A Python script that generates a dashboard showing flight delay statistics.
+   - **Use**: Visualize and analyze flight delay data, with insights on delay patterns and trends.
+
+### 4. **Matplotlib and Line Plots (`Matplotlib_and_Line_Plots.ipynb`)**
+   - **Purpose**: This notebook shows how to create line plots using Matplotlib to visualize top countries and their relevant data.
+   - **Use**: It is used to display and compare trends over time or across different categories using line plots.
+
+### 5. **Plotting with Seaborn (`Plotting with Seaborn.ipynb`)**
+   - **Purpose**: A notebook demonstrating how to create regression plots and other statistical visualizations using Seaborn.
+   - **Use**: Used for statistical data visualization, with a focus on regression analysis and correlation.
+
+### 6. **Waffle Charts (`Waffle_Charts.ipynb`)**
+   - **Purpose**: Demonstrates how to create waffle charts along with count plots and bar plots.
+   - **Use**: Ideal for visualizing proportions of categorical data in a more visually engaging way, along with typical bar and count plots.
+
+### 7. **Word Clouds (`Word_Clouds.ipynb`)**
+   - **Purpose**: This notebook shows how to generate word clouds for visualizing frequently occurring words in text data.
+   - **Use**: Generate word clouds from text data to visualize the most common words or themes.
+
+### 8. **Dash Interactivity (`dash_interactivity.py`)**
+   - **Purpose**: A Python script to create an interactive dashboard using Dash.
+   - **Use**: Implement interactive features where users can filter and explore data dynamically on the dashboard.
+
+### 9. **Plotly HTML Dashboards (`plotlyhtml.py`)**
+   - **Purpose**: This Python script demonstrates how to create interactive dashboards using Dash and Plotly and output them as HTML files.
+   - **Use**: It helps in creating visual and interactive dashboards for web display, where users can interact with charts and data.
+
+### 10. **Pre-Processing a Dataset Using Pandas (`pre_processing_a_dataset_using_Pandas.ipynb`)**
+   - **Purpose**: This notebook covers how to clean and preprocess a dataset using Pandas.
+   - **Use**: Demonstrates the techniques for handling missing data, transforming columns, and preparing datasets for analysis.
+
+### 11. **Requirements File (`requirements.txt`)**
+   - **Purpose**: Lists the required Python libraries for the visualization and dashboard creation.
+   - **Use**: Ensures that all necessary dependencies are installed for running the visualizations and dashboards correctly.
+
+### 12. **Visualizing Geospatial Data (`visualizing_geospatial_data.ipynb`)**
+   - **Purpose**: Demonstrates how to create a choropleth map using GeoJSON data and visualize the immigration data of Canada.
+   - **Use**: Used for visualizing geographical data, highlighting regions on a map based on statistical data.
+
+### 13. **GeoJSON File (`world_countries.json`)**
+   - **Purpose**: Contains GeoJSON data representing the geometries of world countries.
+   - **Use**: Used for plotting geographic data, such as creating choropleth maps.
+
+### 14. **GeoJSON File 1 (`world_countries.json.1`)**
+   - **Purpose**: Another variation of the world countries GeoJSON file, potentially with different data for mapping.
+   - **Use**: Used for mapping immigration statistics or other data associated with countries.
+
+### 15. **GeoJSON File 2 (`world_countries.json.2`)**
+   - **Purpose**: Another variation of the world countries GeoJSON file, likely used for different data visualizations.
+   - **Use**: Used in geospatial visualizations or maps, possibly for another
+
