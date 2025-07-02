@@ -133,3 +133,42 @@ This folder contains various notebooks and Python files used for data visualizat
    - **Purpose**: Another variation of the world countries GeoJSON file, likely used for different data visualizations.
    - **Use**: Used in geospatial visualizations or maps, possibly for another
 
+## Data Wrangling and EDA Folder
+
+This folder contains scripts, datasets, and notebooks used for exploratory data analysis (EDA) and data wrangling. It involves cleaning, transforming, and analyzing various datasets. Below is the structure and purpose of each file in the folder:
+
+### 1. **.venv**
+   - **Purpose**: Virtual environment for managing the project's dependencies.
+   - **Use**: This folder contains all the necessary Python libraries and packages required to run the project. Ensure to activate the virtual environment before running any scripts.
+
+### 2. **Exploratory Data Analysis (`Exploratory_Data_Analysis.ipynb`)**
+   - **Purpose**: Jupyter notebook for performing exploratory data analysis.
+   - **Use**: This notebook is used to explore the datasets, perform initial visualizations, and calculate statistical metrics like the P-value and Pearson correlation.
+
+### 3. **README.md**
+   - **Purpose**: The main documentation file for the project.
+   - **Use**: Provides a summary of the project, including details about data wrangling steps, datasets used, and instructions for setting up and running the project.
+
+### 4. **Automobile Dataset (`automobileEDA.csv`)**
+   - **Purpose**: CSV file containing automobile-related data for analysis.
+   - **Use**: This dataset is used to create dataframes using **Pandas**, perform exploratory analysis, and visualize various attributes of automobiles.
+
+### 5. **Laptop Pricing Dataset (`laptop_pricing_dataset.csv`)**
+   - **Purpose**: A dataset related to laptop pricing.
+   - **Use**: This dataset is used for identifying missing values and replacing them with mean values for data cleaning and preparing it for further analysis.
+
+### 6. **Laptop Pricing Dataset Wrangling (`laptop_pricing_dataset_wrangling.ipynb`)**
+   - **Purpose**: Jupyter notebook used to wrangle and clean the laptop pricing dataset.
+   - **Use**: Includes steps for handling missing values, transforming data, and creating new features using **Pandas** to prepare the dataset for analysis.
+
+### 7. **Requirements File (`requirments.txt`)**
+   - **Purpose**: Contains a list of the Python libraries and dependencies required for the project.
+   - **Use**: This file ensures that all necessary libraries are installed for running the data wrangling and exploratory data analysis. Install the dependencies with `pip install -r requirements.txt`.
+
+### 8. **Used Car Dataset Wrangling (`used_car_data_set_wrangling.ipynb`)**
+   - **Purpose**: Jupyter notebook used for performing data wrangling on the used car dataset.
+   - **Use**: This notebook includes steps to clean the used car dataset by handling missing data, correcting data types, and creating new columns for analysis.
+
+### 9. **Used Cars Dataset (`usedcars.csv`)**
+   - **Purpose**: CSV file containing data related to used cars.
+   - **Use**: This dataset is used to perform data wrangling and analysis, including cleaning and transforming the data for better usability.
