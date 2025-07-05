@@ -1,5 +1,66 @@
 # Data Analysis Training from IBM - Capstone Project Structure
 
+
+```markdown
+# 📊 Capstone Project – Data Analysis and Visualization
+
+This project contains multiple components of a data-driven capstone, including data wrangling, visualization, model development, and socioeconomic analysis. It showcases data collection, cleaning, EDA, and insights using various tools such as Python, Pandas, Matplotlib, Seaborn, Plotly, and Dash.
+
+
+## 🗂️ Project Structure
+
+```
+├── Capstone\_project/                     # Main capstone presentation and work
+│   ├── Capstone\_Project\_Md\_hasanuzzaman.pptx
+│   ├── Data Visualization/               # All visualizations with Matplotlib/Seaborn
+│   ├── Data Wrangling/                   # Data collection, cleaning, and preprocessing
+│   ├── Finding\_Correlation.ipynb
+│   ├── Scatter\_Plot\_rdms.ipynb
+│   ├── Stacked\_Charts.ipynb
+│   ├── github-job-postings.xlsx
+│   ├── languages.db
+│   └── popular-languages.csv
+
+├── DATA EXCEL/                           # Raw Excel dataset
+│   └── sales\_data.xlsx
+
+├── DataVisualizationWithPython/         # Visualizations using Plotly & Dash
+│   ├── Basic and Advanced Charts
+│   ├── Word Clouds, Waffle Charts
+│   ├── Dash Apps and Geospatial Plots
+│   ├── world\_countries.json files
+
+├── DataWrangling/                        # Dataset cleanup and wrangling notebooks
+│   ├── EDA Notebooks
+│   ├── Used Car and Laptop Pricing datasets
+│   └── Wrangling scripts
+
+├── ModelDevelopment/                     # Building prediction models
+│   ├── develop\_prediction\_models.ipynb
+│   ├── automobile.csv
+
+├── Socioeconomic Indicators in Chicago/  # Database + dashboard for Chicago data
+│   ├── socioEconomicData.db
+│   ├── socioEconomicData.ipynb
+
+├── requirements.txt                      # Global dependencies
+└── README.md                             # Project overview (this file)
+
+````
+
+
+## 📌 Major Topics Covered
+
+- 📉 Exploratory Data Analysis (EDA)
+- 🧹 Data Wrangling & Cleaning
+- 📊 Data Visualization (Matplotlib, Seaborn, Plotly, Dash)
+- 🤖 Basic Machine Learning Model Development
+- 🌍 Geospatial and Socioeconomic Data Analysis
+- 📦 Dashboard Applications
+
+```
+
+
 ## 1. **Data Visualization**
 
 * **Purpose**: Visualizations using various chart types (e.g., bar charts, line graphs, scatter plots) to explore relationships between variables.
