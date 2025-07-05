@@ -1,7 +1,6 @@
 # Data Analysis Training from IBM - Capstone Project Structure
 
 
-```markdown
 # 📊 Capstone Project – Data Analysis and Visualization
 
 This project contains multiple components of a data-driven capstone, including data wrangling, visualization, model development, and socioeconomic analysis. It showcases data collection, cleaning, EDA, and insights using various tools such as Python, Pandas, Matplotlib, Seaborn, Plotly, and Dash.
@@ -9,11 +8,11 @@ This project contains multiple components of a data-driven capstone, including d
 
 ## 🗂️ Project Structure
 
-```
-├── Capstone\_project/                     # Main capstone presentation and work
+
+├── Capstone\_project/                     
 │   ├── Capstone\_Project\_Md\_hasanuzzaman.pptx
-│   ├── Data Visualization/               # All visualizations with Matplotlib/Seaborn
-│   ├── Data Wrangling/                   # Data collection, cleaning, and preprocessing
+│   ├── Data Visualization/               
+│   ├── Data Wrangling/                   
 │   ├── Finding\_Correlation.ipynb
 │   ├── Scatter\_Plot\_rdms.ipynb
 │   ├── Stacked\_Charts.ipynb
