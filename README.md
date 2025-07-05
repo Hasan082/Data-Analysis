@@ -1,11 +1,3 @@
-Thanks for the update! When pasting into GitHub's `README.md`, using triple backticks (\`\`\`) around the whole thing turns everything into a code block — which **prevents Markdown formatting** like bold, headers, and emojis from rendering properly.
-
-
-### ✅ Solution: Remove the outer triple backticks (` ```markdown ... ``` `)
-
-Here's the **GitHub-friendly version** (no triple backticks), fully functional with proper Markdown formatting and emojis:
-
-
 # 📊 Capstone Project – Data Analysis and Visualization (IBM Data Analyst Training)
 
 This capstone showcases the complete data analysis workflow: data wrangling, visualization, exploratory analysis, model development, and socioeconomic insights using Python (Pandas, Seaborn, Plotly, Dash, etc.).
@@ -46,7 +38,6 @@ requirements.txt                                # Dependencies
 README.md                                       # Project summary
 ```
 
----
 
 ## ✅ Key Highlights
 
@@ -56,7 +47,7 @@ README.md                                       # Project summary
 * 🌍 **Geospatial & Socioeconomic Insight**: City-focused analysis using SQLite and maps
 * 📋 **Presentation**: Well-structured PPT summarizing goals, approach, and findings
 
----
+
 
 ### 🎯 Objective
 
